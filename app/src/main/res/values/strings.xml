@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">TBoda</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="inquire">Inquire here to get in touch with TBoda services and also as a rider to get in the App.</string>
+
+    //Welcome screen
+
+    <string name="title_activity_welcome">Welcome Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Exclusive Services</string>
+    <string name="slide_1_desc">Get rider services which are unique and only available at Tboda</string>
+
+    <string name="slide_2_title">Cheap Rates</string>
+    <string name="slide_2_desc">Services at such an affordable rates !</string>
+
+    <string name="slide_3_title">Hassle Free Payments</string>
+    <string name="slide_3_desc">With various pay options , you can easily pay in a minute !</string>
+
+    <string name="slide_4_title">Fast Delivery</string>
+    <string name="slide_4_desc">Blazing fast order delivery within time with trusted riders!</string>
+
+    //About TBoda
+    <string name="about_tboda">TBoda was started to enhance security measures and quicker movements around Taita region which comprises of Voi Town and TTU areas.It is safe to ride with us because we have the personal details of our riders incase of any insecurity reasons we are able to trace back in our databases. </string>
+    <string name="about_two_tboda">We also offer delivery and courier services with our entrusted riders so you do not have to worry about your luggage or parcel it is delivered right to your door step. </string>
+</resources>

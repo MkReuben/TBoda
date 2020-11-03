@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.boda.voi.taita.Users.RidersActivity">
+
+    <LinearLayout
+        android:id="@+id/linear_two"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@android:color/white"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="94dp"
+            android:background="@android:color/white"
+            android:src="@drawable/ministryoftransport" />
+
+
+    </LinearLayout>
+
+   <ScrollView
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:layout_below="@id/linear_two"
+       android:scrollbarStyle="insideInset"
+       android:background="@android:color/white"
+
+       >
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <TextView
+               android:id="@+id/title_details"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/inquire"
+               android:textSize="14sp"
+               android:textColor="@color/colorPrimary"
+               android:layout_marginStart="10dp"
+               android:layout_marginLeft="10dp"
+               android:layout_marginTop="25dp"
+               />
+
+           <LinearLayout
+               android:id="@+id/linear_one"
+               android:layout_width="match_parent"
+               android:layout_height="50dp"
+               android:orientation="horizontal"
+               android:layout_below="@+id/title_details"
+               android:layout_marginTop="10dp"
+
+
+               >
+
+               <ImageView
+                   android:id="@+id/call_details"
+                   android:layout_width="70dp"
+                   android:layout_height="50dp"
+                   android:layout_marginTop="2dp"
+                   android:src="@drawable/callus"
+                   android:layout_marginStart="18dp"
+                   android:layout_marginLeft="18dp"
+
+                   />
+               <ImageView
+                   android:id="@+id/sms_details"
+                   android:layout_width="70dp"
+                   android:layout_height="50dp"
+                   android:layout_marginTop="2dp"
+                   android:src="@drawable/sms"
+
+                   android:layout_marginStart="10dp"
+                   android:layout_marginLeft="10dp"
+                   />
+               <ImageView
+                   android:id="@+id/whatsapp_details"
+                   android:layout_width="70dp"
+                   android:layout_height="50dp"
+                   android:layout_marginTop="2dp"
+                   android:src="@drawable/whatsapp"
+                   android:layout_marginStart="10dp"
+                   android:layout_marginLeft="10dp"
+                   />
+               <ImageView
+                   android:id="@+id/email_details"
+                   android:layout_width="70dp"
+                   android:layout_height="50dp"
+                   android:layout_marginTop="2dp"
+                   android:src="@drawable/gmail"
+
+                   />
+           </LinearLayout>
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:text="About us"
+               android:id="@+id/about_us"
+               android:layout_below="@+id/linear_one"
+               android:textSize="25sp"
+               android:textAllCaps="false"
+               android:textAlignment="center"
+               android:textColor="@color/Red"
+               android:fontFamily="@font/blacklist"
+               android:layout_marginTop="20dp"
+               />
+
+           <TextView
+               android:id="@+id/tv_about_us"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/about_tboda"
+
+               android:layout_below="@id/about_us"
+               android:textSize="14sp"
+               android:textColor="@color/colorPrimary"
+               android:layout_marginLeft="15dp"
+               android:layout_marginTop="10dp"
+
+               />
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/about_two_tboda"
+               android:layout_below="@id/tv_about_us"
+               android:textSize="14sp"
+
+               android:textColor="@color/colorPrimary"
+               android:layout_marginLeft="15dp"
+
+
+               />
+       </RelativeLayout>
+   </ScrollView>
+
+
+</RelativeLayout>

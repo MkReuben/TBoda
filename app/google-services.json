@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "442151255511",
+    "firebase_url": "https://boda-3f280.firebaseio.com",
+    "project_id": "boda-3f280",
+    "storage_bucket": "boda-3f280.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442151255511:android:31c3b66e8276ee29fe9f92",
+        "android_client_info": {
+          "package_name": "com.mk.taita.voi.boda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "442151255511-pu0e12jn74plhn882sjqo1p0h29iif16.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mk.taita.voi.boda",
+            "certificate_hash": "6f53ef960a967906779b1d34efaa55bbff6487a1"
+          }
+        },
+        {
+          "client_id": "442151255511-fsqr3cvn7vtmeu9pk57jso196r9n9vbj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mk.taita.voi.boda",
+            "certificate_hash": "b106b5d14d72976ceb61334d348810ff38bdf2d2"
+          }
+        },
+        {
+          "client_id": "442151255511-ilt3hpd5mvlik4sqcesdn6pnd2q1an3u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBY6FTgn2npLEekbwh2Yv0ZzydaOxKxs98"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "442151255511-ilt3hpd5mvlik4sqcesdn6pnd2q1an3u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

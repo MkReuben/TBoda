@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent"
+    tools:context="com.boda.voi.taita.Users.MainActivity">
+
+    <!--  <ImageView-->
+    <!--      android:layout_width="match_parent"-->
+    <!--      android:layout_height="wrap_content"-->
+    <!--      android:background="@drawable/logo"-->
+    <!--      android:foregroundGravity="center"-->
+    <!--      android:layout_marginTop="150dp"-->
+
+
+    <!--      />-->
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="224dp"
+
+
+            android:src="@drawable/logosplash" />
+
+        <TextView
+            android:id="@+id/logotwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:layout_marginTop="165dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:text="TBoda"
+            android:fontFamily="@font/blacklist"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:textStyle="italic|bold" />
+
+        <TextView
+            android:id="@+id/appname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/logo"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="43dp"
+            android:layout_marginEnd="-40dp"
+            android:layout_marginRight="-40dp"
+            android:fontFamily="@font/blacklist"
+            android:text="It is always safe and secure to ride with us"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="35sp" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animation_view"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:lottie_fileName="splash.json"
+            app:lottie_loop="true"
+            app:lottie_autoPlay="true"
+            android:layout_gravity="center"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

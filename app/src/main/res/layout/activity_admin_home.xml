@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/custom_button"
+
+    tools:context="com.boda.voi.taita.Admin.AdminHomeActivity">
+
+    <Button
+        android:id="@+id/maintain_rider_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_password_input"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="60dp"
+
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/custom_four_button"
+        android:padding="17dp"
+        android:text=" Maintain Rider Information"
+        android:textAllCaps="false"
+        android:textColor="#FFF"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/add_Rider_btn"
+
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:layout_marginTop="18dp"
+        android:text="Add Rider"
+        android:textColor="#FFF"
+        android:background="@drawable/custom_four_button"
+        android:padding="17dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/rider_info_btn"
+        android:layout_below="@+id/add_Rider_btn"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:layout_marginTop="18dp"
+        android:text=" Riders Information"
+        android:textColor="#FFF"
+        android:background="@drawable/custom_four_button"
+        android:padding="17dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/notifications"
+        android:layout_below="@+id/add_Rider_btn"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:layout_marginTop="18dp"
+        android:text=" Notifications"
+        android:textColor="#FFF"
+        android:background="@drawable/custom_four_button"
+        android:padding="17dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/logout_btn"
+        android:layout_below="@+id/rider_info_btn"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:layout_marginTop="18dp"
+        android:text=" Logout"
+        android:textColor="#FFF"
+        android:background="@drawable/custom_four_button"
+        android:padding="17dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
